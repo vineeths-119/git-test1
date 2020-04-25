@@ -1,0 +1,28 @@
+{
+  "name": "git-test1",
+  "version": "1.0.0",
+  "description": "\"this is a test directory to learn Git and node",
+  "main": "index.html",
+  "scripts": {
+    "start":"npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite":"lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vineeths-119/git-test1.git"
+  },
+  "keywords": [
+    "vineeth",
+    "sharma"
+  ],
+  "author": "vineeth sharma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vineeths-119/git-test1/issues"
+  },
+  "homepage": "https://github.com/vineeths-119/git-test1#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
